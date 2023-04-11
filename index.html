@@ -12,21 +12,19 @@
 
 </head>
 
-<body>
-
-    <header id="Home">
-
+<body id="Home">
+    <header class="sticky-top">
         <nav class="navbar navbar-dark py-0 navbar-expand-lg" style="background-color: #212529;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/LOGOS-02-02.png" alt="Logo" width="70" height="70"
                         class="d-inline-block align-text-center py-2">
-
                 </a>
                 <h3 class="font align-content-centre pt-2">Ramp Runner Refreshments</h3>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler pb-sm-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto justify-content-end ">
@@ -49,17 +47,16 @@
                 </div>
             </div>
         </nav>
-
+        <section class="redStripe"></section>
+        <section class="gap1"></section>
+        <section class="orangeStripe"></section>
+        <section class="gap2"></section>
+        <section class="yellowStripe"></section>
     </header>
 
-    <section class="redStripe"></section>
-    <section class="gap1"></section>
-    <section class="orangeStripe"></section>
-    <section class="gap2"></section>
-    <section class="yellowStripe"></section>
+
 
     <main style="background-color: #212529;">
-
         <div class="container-fluid py-3 ">
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
                 <div class="carousel-inner">
@@ -84,22 +81,19 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
-
         </div>
-
         <div class="container-fluid">
-            <h3 class="about-us-home justify-content-start">About us</h3>
+            <h3 class="about-us-home justify-content-start" id="Services">About us</h3>
             <div>
-                <p class="about-us-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="about-us-home">Established in early 2023, Ramp Runner Refreshments started out as a concept
+                    for a simple van to supply refreshments for various events, but, soon become merged with the owner's
+                    main passion – Skateboarding. RRR has now become a mobile skatestore that sells a variety of your
+                    favourite skateboard parts, clothing and merchandise thats available to hire out for events, parties
+                    or just roams the famous skatespots around the South-West and South-Wales!</p>
             </div>
         </div>
 
-        <section id="Services" class="redStripe"></section>
+        <section class="redStripe"></section>
         <section class="gap1"></section>
         <section class="orangeStripe"></section>
         <section class="gap2"></section>
@@ -119,11 +113,10 @@
 
         <div class="container-fluid">
             <div class="row">
-                <p class="font justify-content-start pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="font justify-content-start pt-3">RRR offers a nubmer of products and services for our
+                    customers from beginners lessons and free-to-use obstacles, to chilled brews under the sun. If you
+                    have any specific requests for your booking or general enquires please add them to the 'notes'
+                    section of the booking form and we'll try and accomodate!</p>
 
                 <div class="col-lg-6 col-sm-12 py-3">
                     <img class="img-fluid" src="images/MenuOfProducts-01.png"></img>
@@ -132,11 +125,12 @@
                 </div>
                 <div class="col-lg-6 col-sm-12 py-3">
                     <img class="img-fluid" src="images/MenuOfServices-02.png"></img>
-                    <p class="font justify-content-start pt-3">Likewise we offer many different services depending on
+                    <p class="font justify-content-start pt-3" id="Products">Likewise we offer many different services
+                        depending on
                         what our customer needs. Please see 'Booking Info' for more information.</p>
                 </div>
 
-                <section id="Products" class="redStripe"></section>
+                <section class="redStripe"></section>
                 <section class="gap1"></section>
                 <section class="orangeStripe"></section>
                 <section class="gap2"></section>
@@ -151,17 +145,20 @@
                 <section class="yellowStripe"></section>
 
                 <div class="col-lg-3 col-sm-6 col-md-3 py-3">
-                    <img class="img-fluid" src="images/carousel photos/SKATEBOARDMOCKUP.png"></img>
+                    <img class="img-fluid" src="images/carousel photos/SKATEBOARDMOCKUP.png"
+                        title="An image of two skateboards. One 8.25, one 8.5"></img>
                     <p class="font justify-content-start pt-2">RRR Decks (8.5" & 8.25")</p>
                     <p class="font justify-content-start">£45</p>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-3 py-3">
-                    <img class="img-fluid" src="images/carousel photos/TSHIRTMOCKUP.png"></img>
+                    <img class="img-fluid" src="images/carousel photos/TSHIRTMOCKUP.png"
+                        title="An image of a T-Shirt with the RRR logo and moto on the back"></img>
                     <p class="font justify-content-start pt-2">RRR Logo Tee</p>
                     <p class="font justify-content-start">£20</p>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-3 py-3">
-                    <img class="img-fluid" src="images/carousel photos/HATMOCKUP.png"></img>
+                    <img class="img-fluid" src="images/carousel photos/HATMOCKUP.png"
+                        title="A image of a hat in the theme of RRR"></img>
                     <p class="font justify-content-start pt-2">RRR Striped Beanie</p>
                     <p class="font justify-content-start">£15</p>
                 </div>
@@ -186,7 +183,7 @@
                     <p class="font justify-content-start">~~</p>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-3 py-3">
-                    <img class="img-fluid" src="images/moreProducts.png"></img>
+                    <img class="img-fluid" src="images/moreProducts.png" title="super secret message"></img>
                     <p class="font justify-content-start pt-2">More products coming soon!!</p>
                     <p class="font justify-content-start">~~</p>
                 </div>
@@ -207,13 +204,13 @@
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-3 py-3">
                     <img class="img-fluid" src="images/moreProducts.png"></img>
-                    <p class="font justify-content-start pt-2">More products coming soon!!</p>
+                    <p class="font justify-content-start pt-2" id="Booking-Info">More products coming soon!!</p>
                     <p class="font justify-content-start">~~</p>
                 </div>
             </div>
         </div>
 
-        <section id="Booking-Info" class="redStripe"></section>
+        <section class="redStripe"></section>
         <section class="gap1"></section>
         <section class="orangeStripe"></section>
         <section class="gap2"></section>
@@ -262,7 +259,8 @@
                     <p class="font justify-content-start">Base price: £85/hour</p>
                     <p class="font justify-content-start">(Includes all standard services, stock, hireables and more!)
                     </p>
-                    <p class="font justify-content-start">Addons: custom orders of stock for gifts or otherwise are
+                    <p class="font justify-content-start" id="Forms">Addons: custom orders of stock for gifts or
+                        otherwise are
                         available to addon when renting out the van. This could be things like trucks, bearing or decks
                         that the RRR van doesn't normally stock</p>
                 </div>
@@ -273,7 +271,7 @@
             </div>
         </div>
 
-        <section id="Forms" class="redStripe"></section>
+        <section class="redStripe"></section>
         <section class="gap1"></section>
         <section class="orangeStripe"></section>
         <section class="gap2"></section>
@@ -423,19 +421,20 @@
             <section class="orangeStripe"></section>
             <section class="gap2"></section>
             <section class="yellowStripe"></section>
-            
+
             <footer>
                 <p class="font text-center pt-3">Ramp Runner Refreshments</p>
-                
+
                 <ul class="nav justify-content-center border-bottom font align-content-center pb-2 ">
                     <li class="nav-item font"><a href="#Home" class="nav-link footer-items">Home</a></li>
                     <li class="nav-item font"><a href="#Services" class="nav-link footer-items">Services</a></li>
                     <li class="nav-item font"><a href="#Products" class="nav-link footer-items">Products</a></li>
-                    <li class="nav-item font"><a href="#Booking-Info" class="nav-link footer-items">Booking Info</a></li>
+                    <li class="nav-item font"><a href="#Booking-Info" class="nav-link footer-items">Booking Info</a>
+                    </li>
                     <li class="nav-item font"><a href="#Forms" class="nav-link footer-items">Forms</a></li>
                 </ul>
                 <a href="https://www.instagram.com/tomefan2002/" target="_blank" class="footer-items">
-                    <p class="font text-center pt-3">♥ This Website was brought to you by lynn ♥</p>
+                    <p class="font text-center pt-3">♥ This website was brought to you by Lynn ♥</p>
                 </a>
             </footer>
         </div>
