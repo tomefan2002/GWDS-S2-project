@@ -54,8 +54,12 @@
 .font {
     font-family: "quasimoda", sans-serif;
     font-weight: 600;
-    font-style: italic;         
+    font-style: italic;
     color: white;
+}
+
+.form-check-input { 
+    outline: none;
 }
 
 .btn-primary {
@@ -82,25 +86,25 @@
     border: none;
 }
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:77%;
-    position:relative;
-    height:0;
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 77%;
+    position: relative;
+    height: 0;
 
 }
 
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 /* MAP RESPONSIVE CSS TAKEN FROM https://blog.duda.co/responsive-google-maps-for-your-website */
 
-footer{
+footer {
     background-color: #212529;
     text-decoration: none;
 }
@@ -124,11 +128,3 @@ footer{
     color: inherit;
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
